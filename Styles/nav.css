@@ -31,8 +31,10 @@ ul{
 /* Shared style */
 .text-primary{
     color: #FD6E0A;
+    text-align: center;
 }
 .dark-1{
+    font-weight: bold;
     color: #181818;
 }
 .dark-2{
@@ -54,6 +56,7 @@ ul{
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    text-align: center;
 }
 .section-description{
     font-size: 18px;
@@ -129,15 +132,14 @@ main{
     margin: 0 auto;
 }
 
-.about-wrapper{
-    background-color: ;
-}
-
 .about{
     border-radius: 10px;
     padding: 131px 157px;
     text-align: center;
     margin-top: 131px;
+}
+.wtf{
+    background-color: white;
 }
 .item-description{
     font-weight: bold;
@@ -145,5 +147,86 @@ main{
 }
 .info{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+
+body{
+    background-color: #F3F3F3;
+}
+
+/* skills */
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 50%);
+    
+}
+
+.skills-container img {
+    margin: 0;
+    display: inline-block;  /*It will keep the image inline,but no other content can come in it's width*/
+    margin-left: auto;
+    margin-right: auto;
+    height: 44px;
+    width: 44px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+/* Columns of resume */
+.columnsmother{
+    display:flex;
+    gap: 24px;
+}
+.sub-sec{
+    border-bottom: 1px solid #D1D1D1;
+    border-right: 1px solid #D1D1D1;
+    box-shadow: 1px 1px 10px;
+}
+
+/* Button */
+.downloadCV{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 64px 200px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.afoot img{
+    margin: 0;
+    display: inline-block;  /*It will keep the image inline,but no other content can come in it's width*/
+    margin-left: auto;
+    margin-right: auto;
+    height: 44px;
+    width: 44px;
+
+}
+.foot{
+    display: flex;
+    padding: 130px 386px 230px 0px;
+    justify-content: center;
+    text-align: center;
+    gap: 34px;
+    
+}
+.afoot{
+    max-width: 562px;
+}
+
+.afoot input[type="text"], .afoot input[type="email"],.afoot textarea{
+    width: 461px;
+    height: 64px;
+    border: none;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+
 }
